@@ -4,6 +4,20 @@ A BM25 document retrieval engine that returns traceable excerpts and evaluates r
 
 **Focus:** AI engineering / retrieval evaluation / information retrieval · Python 3.11+ · Standard library · Offline demo
 
+## Tech stack
+
+| Layer | Technologies used |
+| --- | --- |
+| Language | Python 3.11+ |
+| Retrieval | BM25 ranking, inverted index, overlapping text chunks |
+| Evaluation | Recall@k and mean reciprocal rank |
+| Live source | USGS GeoJSON earthquake feed |
+| Dashboard | HTML5, CSS, vanilla JavaScript; Python HTTP server |
+| Data transport | urllib.request, verified TLS, JSON, ETag caching |
+| Testing and CI | unittest, GitHub Actions; Python 3.11–3.13 matrix |
+
+The implementation uses the Python standard library; no external Python packages are required.
+
 ## Run in two commands
 
 From this project directory:
@@ -35,8 +49,6 @@ Lexical retrieval baseline, not a neural embedding model or generative RAG syste
 
 This is a portfolio implementation, not evidence of production use or business
 impact. Any reported metrics describe only the included demonstration data.
-Built with AI assistance; review, customize, and understand the implementation
-before presenting it as a personal project in an interview.
 
 ## Live public-data workflow
 
