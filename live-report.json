@@ -1,0 +1,59 @@
+{
+  "mode": "live fetch",
+  "generated_at": "2026-09-22T01:21:20.044583+00:00",
+  "sources": [
+    {
+      "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson",
+      "fetched_at": "2026-09-22T01:21:20.000559+00:00"
+    }
+  ],
+  "result": {
+    "project": "EvidenceSearch",
+    "indexed_real_documents": 1973,
+    "source_generated_ms": 1790040044000,
+    "query": "21 km ESE of Anza, CA",
+    "evidence": [
+      {
+        "source": "ci10253830",
+        "offset": 0,
+        "text": "M 0.3 - 21 km ESE of Anza, CA Place: 21 km ESE of Anza, CA Magnitude: 0.26",
+        "length": 19,
+        "score": 17.130025,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci10253830"
+      },
+      {
+        "source": "ci41335071",
+        "offset": 0,
+        "text": "M 1.4 - 21 km ESE of Anza, CA Place: 21 km ESE of Anza, CA Magnitude: 1.37",
+        "length": 19,
+        "score": 17.130025,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41335071"
+      },
+      {
+        "source": "ci41336495",
+        "offset": 0,
+        "text": "M 1.2 - 21 km ESE of Anza, CA Place: 21 km ESE of Anza, CA Magnitude: 1.23",
+        "length": 19,
+        "score": 17.130025,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41336495"
+      },
+      {
+        "source": "ci41333175",
+        "offset": 0,
+        "text": "M 0.5 - 21 km ESE of Little Lake, CA Place: 21 km ESE of Little Lake, CA Magnitude: 0.48",
+        "length": 21,
+        "score": 11.374003,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41333175"
+      },
+      {
+        "source": "ci41333431",
+        "offset": 0,
+        "text": "M 0.7 - 20 km ESE of Anza, CA Place: 20 km ESE of Anza, CA Magnitude: 0.66",
+        "length": 19,
+        "score": 11.371229,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41333431"
+      }
+    ],
+    "note": "Live retrieval results, not an accuracy evaluation; offline relevance judgments are in demo.py."
+  }
+}

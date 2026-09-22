@@ -1,0 +1,14 @@
+test_citations_are_verbatim (test_engine.SearchTests.test_citations_are_verbatim) ... ok
+test_invalid_chunking (test_engine.SearchTests.test_invalid_chunking) ... ok
+test_metrics_no_duplicate_inflation (test_engine.SearchTests.test_metrics_no_duplicate_inflation) ... ok
+test_ranking (test_engine.SearchTests.test_ranking) ... ok
+test_unknown_and_empty (test_engine.SearchTests.test_unknown_and_empty) ... ok
+test_unmatched_query_scores_zero (test_engine.SearchTests.test_unmatched_query_scores_zero) ... ok
+test_atomic_report_roundtrip (test_feeds.FeedTests.test_atomic_report_roundtrip) ... ok
+test_network_failure_is_not_synthetic_fallback (test_feeds.FeedTests.test_network_failure_is_not_synthetic_fallback) ... ok
+test_nonfinite_output_rejected (test_feeds.FeedTests.test_nonfinite_output_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.020s
+
+OK

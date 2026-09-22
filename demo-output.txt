@@ -1,0 +1,35 @@
+{
+  "query": "expired worker leases",
+  "evidence": [
+    {
+      "source": "queue-guide",
+      "offset": 0,
+      "text": "Workers claim jobs with expiring leases. Expired leases allow another worker to retry. Idempotency prevents duplicate side effects",
+      "length": 18,
+      "score": 3.204253
+    }
+  ],
+  "evaluation": {
+    "k": 2,
+    "queries": 3,
+    "mean_recall": 1.0,
+    "mrr": 1.0,
+    "per_query": [
+      {
+        "query": "worker leases",
+        "recall": 1.0,
+        "reciprocal_rank": 1.0
+      },
+      {
+        "query": "stock overselling",
+        "recall": 1.0,
+        "reciprocal_rank": 1.0
+      },
+      {
+        "query": "quarantine records",
+        "recall": 1.0,
+        "reciprocal_rank": 1.0
+      }
+    ]
+  }
+}
